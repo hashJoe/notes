@@ -153,3 +153,12 @@ git remote add <origin> git@github.com:hashishoya/notes.git
 
 #to verify
 git remote -v
+
+#send changes
+git push origin master
+
+#to change url
+git remote set-url origin https://github.com/hashishoya/notes.git
+
+#to pull the changes on Github
+git pull origin master

@@ -162,3 +162,34 @@ git remote set-url origin https://github.com/hashishoya/notes.git
 
 #to pull the changes on Github
 git pull origin master
+
+#clone a person's repo and push the changes to our own repo ==>
+first fork the repo from Github
+git clone <repo-url>
+#the remote name will also be cloned
+#confirm
+git remote -v
+
+#to add a collaborator
+go to settings
+go to collaborators
+and enter the username
+
+#incase two different commits happen on local and remote repo
+#to keep the version locally and update it without affecting your version locally
+git fetch origin
+#then check the changes by
+git log origin/master
+git diff origin/master master
+
+##git pull is the same as git fetch and git merge
+#so you can run git pull instead
+
+#e.g. on different branch for testing or reviewing or feedback
+git branch change-cake-rec
+git checkout change-cake-rec
+git add cake-recipe.txt
+git commit
+git push origin change-cake-rec
+git branch #to check the branches names
+#then pull request from github web

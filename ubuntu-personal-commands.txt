@@ -1,0 +1,8 @@
+sudo dpkg -i /path/to/deb/file
+sudo apt-get install -f
+
+sudo apt install ./name.deb
+
+tar -xvf <.tar>
+cd vpn
+sudo ./vpn_install.sh

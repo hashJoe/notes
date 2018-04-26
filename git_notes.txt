@@ -145,4 +145,11 @@ git branch -d <branch-name>
 #notepad ++
 git config  --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 
+#to create a remote to github and see them
+git remote
 
+#to add
+git remote add <origin> git@github.com:hashishoya/notes.git
+
+#to verify
+git remote -v

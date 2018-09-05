@@ -9,3 +9,4 @@ sudo ./vpn_install.sh
 
 #tensorflow
 https://medium.com/@asmello/how-to-install-tensorflow-cuda-9-1-into-ubuntu-18-04-b645e769f01d
+
